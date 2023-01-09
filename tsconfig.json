@@ -1,0 +1,28 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es5",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@core": ["core/index.ts"],
+      "@dto/*": ["dto/*"],
+      "@dto": ["dto/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,7 @@
+.idea/
+node_modules/
+.env*
+*.iml
+dist/
+yarn.lock
+yarn-error.log
